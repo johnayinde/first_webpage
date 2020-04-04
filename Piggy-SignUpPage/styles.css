@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ADD8E6;
+}
+
+.logo {
+    text-align: center;
+    margin: 2.5rem 2.5rem;
+}
+
+.register-container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 48px;
+
+    border-radius: 20px 20px 20px 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+
+.register-container .form-container {
+    /* border: 2px solid green; */
+
+}
+
+
+.register-container .register-header h1 {
+    color: #125bc8;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.register-container .register-header p {
+    color: gray;
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: .77rem;
+    font-family: sans-serif;
+}
+
+.register-header small {
+    display: block;
+}
+
+form {
+    margin-top: 2em;
+    overflow-y: auto;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+form>p>label {
+    font-size: .75em;
+    line-height: 2;
+}
+
+form input {
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+form input[placeholder],
+select {
+    background: #eeeaea;
+    padding: 12px 8px;
+    outline: 0;
+    border-radius: 5px;
+    border: 0;
+}
+form select option{
+    background: #faf9f9;
+    display: flex;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+form button {
+    background: #08349e;
+    padding: 20px 8px;
+    outline: 0;
+    border-radius: 10px 10px 10px 0;
+    border: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer-link {
+    text-align: center;
+    font-size: .75em;
+   margin: 2em 8em;
+    line-height: 2;
+}
